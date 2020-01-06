@@ -17,6 +17,13 @@
             <groupId>xyz.wongs.weathertop</groupId>
             <artifactId>persistence-mybatis</artifactId>
         </dependency>
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>

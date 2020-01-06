@@ -1,7 +1,6 @@
 package xyz.wongs.weathertop.design.proxy;
 
 import lombok.extern.slf4j.Slf4j;
-import xyz.wongs.weathertop.design.proxy.Loginable;
 
 import java.util.Random;
 
