@@ -1,6 +1,5 @@
 package xyz.wongs.weathertop.akkad.thread.reentrantlock;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
 import org.junit.Test;
 
 public class TestReentrantlock {

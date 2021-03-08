@@ -60,7 +60,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <!-- �����ͻ��˲���ϵͳ��������� -->
             <dependency>
                 <groupId>eu.bitwalker</groupId>
                 <artifactId>UserAgentUtils</artifactId>
@@ -72,13 +71,11 @@
                 <artifactId>commons-text</artifactId>
                 <version>1.9</version>
             </dependency>
-            <!-- ��ȡϵͳ��Ϣ -->
             <dependency>
                 <groupId>com.github.oshi</groupId>
                 <artifactId>oshi-core</artifactId>
                 <version>${oshi.version}</version>
             </dependency>
-            <!-- excel���� -->
             <dependency>
                 <groupId>org.apache.poi</groupId>
                 <artifactId>poi-ooxml</artifactId>
@@ -132,14 +129,6 @@
                 <scope>runtime</scope>
                 <optional>true</optional>
             </dependency>
-
-<!--
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-configuration-processor</artifactId>
-                <optional>true</optional>
-            </dependency>
--->
 
             <dependency>
                 <groupId>com.alibaba</groupId>
@@ -265,7 +254,6 @@
             -->
              <!--  END swagger-->
 
-            <!--�ļ��ϴ������� -->
             <dependency>
                 <groupId>commons-fileupload</groupId>
                 <artifactId>commons-fileupload</artifactId>
@@ -287,35 +275,30 @@
                 <artifactId>hutool-all</artifactId>
                 <version>5.4.1</version>
             </dependency>
-            <!--Shiro���Ŀ�� -->
             <dependency>
                 <groupId>org.apache.shiro</groupId>
                 <artifactId>shiro-core</artifactId>
                 <version>${shiro.version}</version>
             </dependency>
 
-            <!-- Shiroʹ��Srping��� -->
             <dependency>
                 <groupId>org.apache.shiro</groupId>
                 <artifactId>shiro-spring</artifactId>
                 <version>${shiro.version}</version>
             </dependency>
 
-            <!-- Shiroʹ��EhCache������ -->
             <dependency>
                 <groupId>org.apache.shiro</groupId>
                 <artifactId>shiro-ehcache</artifactId>
                 <version>${shiro.version}</version>
             </dependency>
 
-            <!-- thymeleafģ�������shiro��ܵ����� -->
             <dependency>
                 <groupId>com.github.theborakompanioni</groupId>
                 <artifactId>thymeleaf-extras-shiro</artifactId>
                 <version>${thymeleaf.extras.shiro.version}</version>
             </dependency>
 
-            <!--��֤�� -->
             <dependency>
                 <groupId>com.github.penggle</groupId>
                 <artifactId>kaptcha</artifactId>
