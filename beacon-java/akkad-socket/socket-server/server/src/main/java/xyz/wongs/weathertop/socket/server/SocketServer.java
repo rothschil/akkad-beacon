@@ -1,7 +1,7 @@
 package xyz.wongs.weathertop.socket.server;
 
 import lombok.extern.slf4j.Slf4j;
-import xyz.wongs.weathertop.base.utils.StringUtils;
+import xyz.wongs.drunkard.base.utils.StringUtils;
 
 import java.io.IOException;
 import java.io.InputStream;

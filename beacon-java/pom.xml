@@ -12,9 +12,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>akkad-design</module>
-<!--		<module>akkad-socket</module>-->
+		<module>akkad-socket</module>
 		<module>akkad-thread</module>
-        <module>java-shiro</module>
+
     </modules>
 
 

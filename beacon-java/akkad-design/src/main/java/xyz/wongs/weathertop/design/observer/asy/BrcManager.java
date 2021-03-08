@@ -3,7 +3,7 @@ package xyz.wongs.weathertop.design.observer.asy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
-import xyz.wongs.weathertop.base.utils.SpringContextHolder;
+import xyz.wongs.drunkard.base.utils.bean.SpringContextHolder;
 import xyz.wongs.weathertop.design.observer.Article;
 
 @Component

@@ -14,7 +14,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>xyz.wongs.weathertop</groupId>
+            <groupId>xyz.wongs.drunkard</groupId>
             <artifactId>base-utils</artifactId>
             <exclusions>
                 <exclusion>
