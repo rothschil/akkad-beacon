@@ -14,8 +14,7 @@ public class SocketClientDemo {
             if(null!=socket){
                 bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                 printWriter = new PrintWriter(socket.getOutputStream(),true);
-                printWriter.println("开始接收服务端数据");
-                printWriter.println("开始接收服务端数据 >>>>");
+                printWriter.println("开始接收服务端反馈数据 >>>>");
 
                 String response = bufferedReader.readLine();
                 System.out.println(Thread.currentThread().getName() + " Server Send "+ response);
