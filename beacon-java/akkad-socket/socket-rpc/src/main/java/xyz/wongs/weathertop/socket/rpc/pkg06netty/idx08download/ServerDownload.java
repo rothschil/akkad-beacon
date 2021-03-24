@@ -36,21 +36,17 @@ public class ServerDownload {
     private ChannelFuture channelFuture;
 
     public static ServerDownload getInstance(final String url){
-        System.out.println("【Server--1】url="+url);
         return new ServerDownload(url);
     }
-
 
     private ServerDownload(final String url){
         processGroup = new NioEventLoopGroup();
         rwGroup = new NioEventLoopGroup();
         bootstrap = new ServerBootstrap();
-        System.out.println("【Server--2】url="+url);
         buildBootstrap(url);
     }
 
     public void buildBootstrap(final String url){
-        System.out.println("【Server--3】url="+url);
         bootstrap.group(processGroup,rwGroup)
                 .channel(NioServerSocketChannel.class)
                 .handler(new LoggingHandler(LogLevel.INFO))
@@ -95,7 +91,6 @@ public class ServerDownload {
 
     public static void main(String[] args) throws Exception{
         String url = DEFAULT_URL;
-        System.out.println("【Server--0】url="+url);
         ServerDownload serverDownload = ServerDownload.getInstance(url);
         int port = 9099;
         serverDownload.getChannelFuture(port);
